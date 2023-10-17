@@ -21,6 +21,6 @@ it('can save a star', function () {
     ], '#FFFF00'));
     $renderer = new JPGRenderer($canvas);
 
-    $renderer->save(__DIR__.'./img/test.jpg');
-    $this->assertFileExists(__DIR__.'./img/test.jpg');
+    $renderer->save(__DIR__ . '/img/test.jpg');
+    $this->assertFileExists(__DIR__ . '/img/test.jpg');
 });

@@ -90,6 +90,6 @@ it('can save svg in file', function () {
     ], '#FFFF00'));
     $renderer = new SVGRenderer($canvas);
 
-    $renderer->save(__DIR__.'./img/test.svg');
-    $this->assertFileExists(__DIR__.'./img/test.svg');
+    $renderer->save(__DIR__ . '/img/test.svg');
+    $this->assertFileExists(__DIR__ . '/img/test.svg');
 });
